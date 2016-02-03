@@ -61,19 +61,14 @@ MinecraftHelper.prototype.intentHandlers = {
         if (itemSlot && itemSlot.value){
             itemName = itemSlot.value.toLowerCase();
         }
-//        if (!recipes[itemName]) {
-//            itemName = 'fat';  //default to fat
-//        }
-        
-    
-//******Make Changes Here for Joke selection *****************************************************************
+
         var cardTitle = "Joke for category: " + itemName,
             jokeIndex,
             recipe,
             speechOutput,
             repromptOutput;
         
-        //Handle the case when the user said an unknown category
+        //Lookup joke only when category is valid
         if (isValidCategory(itemName)) {
             jokeIndex = getRandomInt(0, recipes[itemName].length - 1),
             recipe = recipes[itemName][jokeIndex];
@@ -146,17 +141,10 @@ function getRandomInt(min, max) {
 
 //Determine if an item is in the category list
 function isValidCategory(txt){
-    //var categories  = ['fat', 'stupid', 'ugly', 'old', 'poor', 'short', 'skinny', 'smells' ,'bald'];  //Array of all joke categories
     var found = true;
     if (categories.indexOf(txt) === -1) {
         found = false;
     }
-//    for (var i = 0; i<categories.length; i++) {
-//        if (categories[i]===txt){
-//            found = true;
-//            break;
-//        }
-//    }
   return found;
 };
 

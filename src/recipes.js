@@ -9,7 +9,7 @@
 */
 
 module.exports = { 
-	"fat":[
+    "fat":[
         "Yo mama's so fat, her belly button doesn't have lint; it has sweaters. ",
         "Yo mama's so fat, her belly button's got an echo. ",
         "Yo mama's so fat, her blood type is Ragu. ",

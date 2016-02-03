@@ -43,8 +43,8 @@ MinecraftHelper.prototype = Object.create(AlexaSkill.prototype);
 MinecraftHelper.prototype.constructor = MinecraftHelper;
 
 MinecraftHelper.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to Yo Mama Jokes by Henry Schaumburger. You can request a category by saying, ask Yo Mama about category." +  
-        categories + "... Now, what category would you like?";
+    var speechText = "Welcome to Yo Mama Jokes by Henry Schaumburger. You can request a category by saying, ask Yo Mama about a category." +  
+                     "Categories include: " + categories + "... Now, what category would you like?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";

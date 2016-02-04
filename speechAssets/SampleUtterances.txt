@@ -1,3 +1,12 @@
-RecipeIntent joke about {Item}
-RecipeIntent about {Item}
-RecipeIntent {Item}
+JokeIntent to tell me a joke about {Item}
+JokeIntent to find me a joke about {Item}
+JokeIntent to get me a joke about {Item}
+JokeIntent to give me a joke about {Item}
+JokeIntent to make me laugh about {Item}
+JokeIntent to make a joke about about {Item}
+JokeIntent to tell me a joke
+JokeIntent to find me a joke
+JokeIntent to get me a joke
+JokeIntent to give me a joke
+JokeIntent to make me laugh
+JokeIntent to make a joke

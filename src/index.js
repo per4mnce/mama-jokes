@@ -43,7 +43,7 @@ JokeHelper.prototype = Object.create(AlexaSkill.prototype);
 JokeHelper.prototype.constructor = JokeHelper;
 
 JokeHelper.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to Yo Mama Jokes by Henry Schaumburger. You can request a category by saying, ask Yo Mama about a category such as ..." +  
+    var speechText = "Welcome to Yo Mama Jokes by Henry Schaumburger. You can request a category by saying, ask Yo Mama to tell me a joke about a category such as ..." +  
                      categories + "... Now, what category would you like?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.

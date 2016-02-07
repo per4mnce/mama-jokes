@@ -79,8 +79,9 @@ JokeHelper.prototype.intentHandlers = {
         }        
         if (joke) {
             speechOutput = {
-                speech: joke,
-                type: AlexaSkill.speechOutputType.PLAIN_TEXT
+                //speech: "<speak>" + joke + "<audio src='https://s3.amazonaws.com/sounds226/boom.mp3'/></speak>",
+                speech: "<speak>" + joke + "<audio src='https://s3.amazonaws.com/sounds226/" + rndSound() + "'/></speak>",
+                type: AlexaSkill.speechOutputType.SSML
             };
             response.tellWithCard(speechOutput, cardTitle, joke);
         } else {
@@ -136,15 +137,20 @@ exports.handler = function (event, context) {
     jokeHelper.execute(event, context);
 };
 
-/**
- * Returns a random integer between min (inclusive) and max (inclusive)
- */
+
+//Returns a random integer between min (inclusive) and max (inclusive)
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
+//Returns a random sound file name
+function rndSound() {
+    var fileNames = ['NyukNyuk.mp3', 'boom.mp3'];
+    return(fileNames[getRandomInt(0, fileNames.length - 1)]);
+}
+
 //Determine if an item is in the category list
-function isValidCategory(txt){
+function isValidCategory(txt) {
     var found = true;
     if (categories.indexOf(txt) === -1) {
         found = false;

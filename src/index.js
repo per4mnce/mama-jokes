@@ -59,11 +59,11 @@ JokeHelper.prototype.intentHandlers = {
             categoryName = itemSlot.value.toLowerCase();
         }
 
-        var cardTitle = "Joke for category: " + categoryName,
-            jokeIndex,
+        var cardTitle,
             joke,
-            speechOutput,
-            repromptOutput;
+            jokeIndex,
+            repromptOutput,
+            speechOutput;
         
         //Select a randon category if one is not provided
         if (categoryName === undefined) {
@@ -72,10 +72,11 @@ JokeHelper.prototype.intentHandlers = {
             categoryName = categoryArray[categoryIndex];
         } 
         
-        //Lookup joke only when category is valid
+        //Lookup joke and cardTitle only when category is valid
         if (isValidCategory(categoryName)) {
             jokeIndex = getRandomInt(0, jokes[categoryName].length - 1),
             joke = jokes[categoryName][jokeIndex];
+            cardTitle = "Joke for category: " + categoryName
         }        
         if (joke) {
             speechOutput = {
@@ -87,11 +88,11 @@ JokeHelper.prototype.intentHandlers = {
         } else {
             var speech;
             if (categoryName) {
-                speech = "I'm sorry, I currently do not know jokes in the " + categoryName + " category. " 
-                         "Now, what category would you like?  Choices include " + categories;
+                speech = "I'm sorry, I currently do not know jokes in the " + categoryName + " category. "
+                         +"Now, what category would you like?  Choices include " + categories;
             } else {
-                speech = "I'm sorry, I currently do not know that category. " + 
-                         "What category would you like?  Choices include " + categories;
+                speech = "I'm sorry, I currently do not know that category. "
+                         +"What category would you like?  Choices include " + categories;
             }
             speechOutput = {
                 speech: speech,

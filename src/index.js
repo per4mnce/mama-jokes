@@ -145,7 +145,7 @@ function getRandomInt(min, max) {
 
 //Returns a random sound file name
 function rndSound() {
-    var fileNames = ['NyukNyuk.mp3', 'boom.mp3'];
+    var fileNames = ['NyukNyuk.mp3', 'boom.mp3', 'laugh1.mp3', 'laugh2.mp3', 'laugh3.mp3', 'laugh4.mp3'];
     return(fileNames[getRandomInt(0, fileNames.length - 1)]);
 }
 

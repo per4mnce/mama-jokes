@@ -41,5 +41,5 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ## Examples
 ### One-shot model:
-    User: "Alexa, ask You Mama about fat"
+    User: "Alexa, ask Yo Mama about fat"
     Alexa: "(reads back a joke in the fat category)"

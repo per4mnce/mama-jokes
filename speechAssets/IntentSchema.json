@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "intent": "RecipeIntent",
+      "intent": "JokeIntent",
       "slots": [
       {
         "name" : "Item",
@@ -20,3 +20,4 @@
     }
   ]
 }
+

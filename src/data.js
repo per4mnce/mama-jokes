@@ -10,6 +10,17 @@
 
 module.exports = { 
     "fat":[
+        "Yo moma's so fat, she got baptized at Sea World. ",
+        "Yo moma's so fat, when she steps out in a yellow raincoat, the people yell, TAXI! ",
+        "Yo mama's so fat, she doesn't need the internet, because she's already world wide.",
+        "Yo moma's so fat, when she sat on an iPod, she made the iPad! ",
+        "Yo moma's so fat, that Dora can't even explore her! ",
+        "Yo mmma's so fat, that when she fell, no one was laughing but the ground was cracking up. ",
+        "Yo mama's so fat, when she sat on WalMart, she lowered the prices. ",
+        "Yo mama's so fat and old when God said, Let there be light, he asked your mother to move out of the way. ",
+        "Yo mama's so fat, that when she went to the beach a whale swam up and sang, We are family, even though you're fatter than me. ",
+        "Yo mama's so fat when she got on the scale it said, I need your weight not your phone number. ",
+        "Yo mama's so fat, I took a picture of her last Christmas and it's still printing. ",
         "Yo mama's so fat, her belly button doesn't have lint; it has sweaters. ",
         "Yo mama's so fat, her belly button's got an echo. ",
         "Yo mama's so fat, her blood type is Ragu. ",
@@ -83,6 +94,9 @@ module.exports = {
         "Yo mama's so fat, when she went to the beach, Greenpeace tried to drag her back into the ocean. ",
         "Yo mama's so fat, you have to take three steps to see all of her. "],
     "stupid":[
+        "Yo moma's so stupid, when driving to Disneyland, she saw a sign that said 'Disneyland left', so she went home.",
+        "Yo moma's so stupid, she climbed over a glass wall to see what was on the other side.",
+        "Yo moma's so stupid, she put two quarters in her ears and thought she was listening to 50 Cent. ",
         "Yo mama's so stupid, if she spoke her mind, she'd be speechless. ",
         "Yo mama's so stupid, if you gave her a penny for her thoughts, you'd get change back. ",
         "Yo mama's so stupid, it takes her 2 hours to watch 60 Minutes. ",
@@ -113,6 +127,9 @@ module.exports = {
         "Yo mama's so stupid, when your dad said, 'It's chilly outside,' she ran into the kitchen to get a bowl. ",
         "Yo mama's so stupid, your house burned down because she couldn't find the '11' button to call 911. "],
     "ugly":[
+        "Yo moma's so ugly, she turned Medusa into stone. ",
+        "Yo mama's so ugly, when she took a bath the water jumped out.",
+        "Yo mama's so ugly, when she tried to join an ugly contest they said, Sorry, no professionals. ",
         "Yo mama's so ugly, her face is closed on weekends. ",
         "Yo mama's so ugly, her parents fed her with a slingshot.",
         "Yo mama's so ugly, her picture is on the inside of a roach motel. ",

@@ -1,5 +1,5 @@
-![icon](https://github.com/per4mnce/mama-jokes/blob/master/Images/icon%20108x108.jpg)
 #Yo Mama Jokes - Clean
+![icon](https://github.com/per4mnce/mama-jokes/blob/master/Images/icon%20108x108.jpg)
 #Alexa Skill
 ###AWS Lambda function for Alexa (Amazon Echo)
 <hr>
